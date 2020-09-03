@@ -1,32 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Natasha's Resume</title>
+</head>
 <body>
-	<section id = "general-info" class="resume-section">
-		<img id="profile" src = "https://i.imgur.com/22xrzXV.png">				
-					<h1 id = "name">Natasha Chauhan</h1>
-					<p id ="general-info-description" class="section-content">cnatasha@vt.edu 
-						<br>(571) 484-3887 				
-						<br>1211 University City Blvd, APT R169
-						<br> Blacksburg, VA 24060
-						<br><a id=
-								"linkedin-link" href="https://www.linkedin.com/in/cnatasha1/">LinkedIn</a></p> 						
+	<div id="page-banner">
+		<header>
+			<h1 id="title">Natasha Chauhan's Resume</h1>
+			<img id="profile-picture" src="https://i.imgur.com/22xrzXV.png">
+			<nav>
+				<a href="#contact-info">Contact Information</a>
+				<a href="#objective">Objective</a>
+				<a href="#education">Education</a>
+				<a href="#experience">Experience</a>
+				<a href="#skills-and-certifications">Skills and Certifications</a>
+				<a href="#activities">Activities</a>
+				<a href="#leadership">Leadership</a>
+			</nav>
+		</header>
+	</div>
+	<section id = "contact-info" class="contact">					
+					<h2 id = "name">Contact Info</h1>
+					<p id="name"> Natasha Chauhan </p>
+					<address id="email">
+						<a href="mailto:cnatasha@vt.edu">cnatasha@vt.edu</a>
+					</address>
+					<p>(571)-484-3887</p>							
+					<address id="home-address" class="address">
+					<h3 class="subsection-header">Address</h3>
+					<p class ="street-address">
+						<p class="address street">1211 University City Blvd</p>
+						<p>
+						<span class="address city">Blacksburg</span>
+						<span class="address state">VA</span>
+						<span class="address postal-code">24060</span>
+					</p>
+					</p>
+					</address>
+
+																	
 	</section>
-	<section id="objective" class="resume-section">
-		<h3 id ="objective-title" class="section-title">Objective</h3>
-		<div id="objective-content" class="section-content">
+	<section id="objective" class="objective-info">
+		<h2 id ="objective-title" class="section-header">Objective</h2>
 		<p id = "objective-description"> Seeking a full-time entry level job in research, product/process development, or manufacturing with interests in polymer science and sustainability
 		</p>
 	</section>
-	<section id="education" class="resume-section">
-		<h3 id ="education-title" class="section-title"> Education </h3>
-		<p id = "education-description" class="section-content">B.S Chemical Engineering
+	<section id="education" class="education-info">
+		<h2 id ="education-title" class="section-header">Education </h2>
+		<p id = "education-description" class="education-content">B.S Chemical Engineering
 		<br>Minors: Computer Science, Green Engineering, Chemistry
 		<br>Virginia Tech, Blacksburg, VA, May 2021
 		<br>Overall GPA: 3.53/4.00, Dean's List, Fall 2017, Spring 2018, Fall 2019</p>		
 	</section>
-	<section id="experience" class="resume-section">
-		<h3 id="experience-title" class="section-title">Experience</h3>
-		<div id="experience-content" class="section-content">
+	<section id="experience" class="experience-info">
+		<h2 id="experience-title" class="section-header">Experience</h2>
+		
 			<p id="undergraduate-research-title">Undergraduate Research, Renewable Materials Lab, August 2018 - Present
 				<ul id="UG-experience-description">
 					<li class="description">Working on biotechnology projects focusing on polymers and adhesives </li>
@@ -37,32 +66,41 @@
 		</div>
 	</section>
 	<section id="skills-and-certifications" class="resume-section">
-		<h3 id="skills-and-certifications-title" class="section-title">Skills and Certifications</h3>
-		<div id="skills-content" class="section-content">
-			<ul id="skills-list">
-				<li class="list-entry">Computer Languages: C, Java, MATLAB, JavaScript</li>
-				<li class="list-entry">Software: Microsoft Office, Windows, Linux, Arduino, Image-J, Mathematica, AutoDesk Inventor CAD </li>
-				<li class="list-entry">Skills: Tensile Testing, Compounding, FTIR, Thin Layer Chromatography (TLC)</li>
-				<li class="list-entry">Certifications: General Laboratory Safety, Laboratory Hazardous Waste, Compressed Gas Cylinder Safety, Hand and Power Tool Safety</li>
+		<h2 id="skills-and-certifications-title" class="section-header">Skills and Certifications</h2>
+			<h3 id="computer-languages" class="subsection-header">Computer Languages</h3>
+			<ul id ="computer-languages-list">
+				<li class="skills-entry"> C, Java, MATLAB, JavaScript</li>
+			</ul>
+			<h3 id="software" class="subsection-header">Software</h3>
+			<ul id ="software-list">
+				<li class="skills-entry">Microsoft Office, Windows, Linux, Arduino, Image-J, Mathematica, AutoDesk Inventor CAD </li>
+			</ul>
+			<h3 id="technical-skills" class="subsection-header">Technical Skills</h3>
+			<ul id ="tech-skills-list">
+				<li class="skills-entry">Tensile Testing, Compounding, FTIR, Thin Layer Chromatography (TLC)</li>
+			</ul>
+			<h3 id="certifications" class="subsection-header">Certifications</h3>
+			<ul id ="certifications-list">
+				<li class="skills-entry">General Laboratory Safety, Laboratory Hazardous Waste, Compressed Gas Cylinder Safety, Hand and Power Tool Safety</li>
 			</ul>
 		</div>
 	</section>
 	<section id="activities" class="resume-section">
-		<h3 id="activities-title" class="section-title">Activities</h3>
-		<div id="activities-content" class="section-content">
+		<h2 id="activities-title" class="section-header">Activities</h2>
+		
 			<ul id="activities-list">
-				<li class="list-entry">Society of Plastic Engineers (March 2019 - Present) </li>
-				<li class="list-entry">American Chemical Society, Rubber Division (March 2019 - Present) </li>
-				<li class="list-entry">Virginia Tech Basketball Pep Band (October 2018 - Present)</li>
-				<li class="list-entry">American Institute of Chemical Engineers (August 2018 - Present)</li>
-				<li class="list-entry">Kappa Kappa Psi, Honorary Band Fraternity (January 2018- Present)</li>
-				<li class="list-entry">The Marching Virginians (August 2017- Present)</li>
-				<li class="list-entry">Hypatia Living Learning Community Resident (August 2017 - May 2018)</li>
+				<li class="activities-entry">Society of Plastic Engineers (March 2019 - Present) </li>
+				<li class="activities-entry">American Chemical Society, Rubber Division (March 2019 - Present) </li>
+				<li class="activities-entry">Virginia Tech Basketball Pep Band (October 2018 - Present)</li>
+				<li class="activities-entry">American Institute of Chemical Engineers (August 2018 - Present)</li>
+				<li class="activities-entry">Kappa Kappa Psi, Honorary Band Fraternity (January 2018- Present)</li>
+				<li class="activities-entry">The Marching Virginians (August 2017- Present)</li>
+				<li class="activities-entry">Hypatia Living Learning Community Resident (August 2017 - May 2018)</li>
 			</ul>
 		</div>
 	</section>
 	<section id="leadership" class="resume-section">
-		<h3 id="leadership-title" class="section-title">Leadership</h3>
+		<h2 id="leadership-title" class="section-title">Leadership</h2>
 		<div id="leadership-content" class="section-content">
 		<ul id="leadership-list">
 			<li class="list-entry">Section Leader, The Marching Virginians (May 2020 - Present) </li>
@@ -98,6 +136,20 @@
 
 
 	
+
+
+
+
+
+
+						
+						
+
+
+
+
+
+
 
 
 
